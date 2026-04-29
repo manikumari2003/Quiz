@@ -86,7 +86,7 @@ public class QuizCraft {
 	public static void main(String[] args) {
 		Quiz quiz = new Quiz();
 
-		quiz.loadQuestions("questions.txt");
+		quiz.loadQuestions("C:\\Users\\hp\\MK\\questions.txt");//path
 		quiz.start();
 	}
 }
